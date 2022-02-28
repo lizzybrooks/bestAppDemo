@@ -12,7 +12,7 @@ function setup() {
   button.style('background-color', "pink");
   button.style('border','none');
   button.style('padding','15px');
-  button.style('font-size','26px');
+  button.style('font-size','36px');
   button.style('border-radius', '12px')
 
 
