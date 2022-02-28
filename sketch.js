@@ -4,8 +4,8 @@ let button;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(220);
-  
-  
+
+
   button = createButton('click me');
   button.position(width/2-20, height/6);
   button.center();
@@ -14,21 +14,21 @@ function setup() {
   button.style('padding','15px');
   button.style('font-size','26px');
   button.style('border-radius', '12px')
-  
 
-  
+
+
   button.mousePressed(changeBG);
 }
 
 function draw() {
-  
+
   fill("teal");
   noStroke();
   textFont("Helvetica");
   textAlign(CENTER);
-  textSize(43)
+  textSize(53)
   text("BEST APP",width/2,height/4)
-  
+
 }
 
 function changeBG() {
