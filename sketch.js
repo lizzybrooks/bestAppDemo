@@ -8,7 +8,7 @@ function setup() {
 
   button = createButton('click me');
   button.position(width/2-20, height/6);
-  button.size(200, 100);
+  button.size(300, 200);
   button.center();
   button.style('background-color', "pink");
   button.style('border','none');
